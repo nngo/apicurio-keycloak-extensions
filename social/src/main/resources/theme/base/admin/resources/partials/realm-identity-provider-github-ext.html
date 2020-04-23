@@ -1,0 +1,22 @@
+<div class="form-group">
+    <label class="col-md-2 control-label" for="baseUrl">{{:: 'base-url' | translate}}</label>
+    <div class="col-md-6">
+        <input class="form-control" id="baseUrl" type="text" ng-model="identityProvider.config.baseUrl">
+    </div>
+    <kc-tooltip>{{:: 'base-url.tooltip' | translate}}</kc-tooltip>
+</div>
+<div class="form-group">
+    <label class="col-md-2 control-label" for="apiUrl">{{:: 'api-url' | translate}}</label>
+    <div class="col-md-6">
+        <input class="form-control" id="apiUrl" type="text" ng-model="identityProvider.config.apiUrl">
+    </div>
+    <kc-tooltip>{{:: 'api-url.tooltip' | translate}}</kc-tooltip>
+</div>
+
+<div class="form-group">
+    <label class="col-md-2 control-label" for="authorizationUrl">{{:: 'authorization-url' | translate}}</label>
+    <div class="col-md-6">
+        <input class="form-control" id="authorizationUrl" type="text" ng-model="identityProvider.config.authorizationUrl">
+    </div>
+    <kc-tooltip>{{:: 'authorization-url.tooltip' | translate}}</kc-tooltip>
+</div>
